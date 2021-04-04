@@ -129,7 +129,7 @@ under the License.
         <property name="https-connector" value="connector">
             <!-- see https://tomcat.apache.org/tomcat-9.0-doc/config/http.html for reference -->
             <!--<property name="address" value=""/>-->
-            <property name="port" value="8443"/>
+            <property name="port" value="5000"/>
             <property name="protocol" value="HTTP/1.1"/>
             <property name="scheme" value="https"/>
             <property name="secure" value="true"/>
@@ -196,7 +196,7 @@ under the License.
         </property>
         <property name="https-connector" value="connector">
             <!--<property name="address" value=""/>-->
-            <property name="port" value="8443"/>
+            <property name="port" value="5000"/>
             <property name="protocol" value="HTTP/1.1"/>
             <property name="scheme" value="https"/>
             <property name="secure" value="true"/>
